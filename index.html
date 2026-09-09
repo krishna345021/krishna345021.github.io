@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GOPALAKRISHNA KOMMA — Computer Science & Data Science portfolio">
+  <title>GOPALAKRISHNA KOMMA | Computer Science • Data Science</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="navbar" class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="#hero">
+      <span class="brand-icon">⌘</span>
+      <span><strong>GOPALAKRISHNA KOMMA</strong><small>CS • DATA SCIENCE</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#about">01 / About</a><a href="#capabilities">02 / Capabilities</a><a href="#work">03 / Work</a><a href="#journey">04 / Journey</a><a href="#contact">05 / Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn ghost" data-open-resume>Resume</button>
+      <a class="btn primary small" href="#contact">Let's Connect ↗</a>
+    </div>
+    <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+  </div>
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#about">01 / About</a><a href="#capabilities">02 / Capabilities</a><a href="#work">03 / Work</a><a href="#journey">04 / Journey</a><a href="#contact">05 / Contact</a>
+    <button class="btn ghost" data-open-resume>View / Download Resume</button>
+    <a class="btn primary" href="#contact">Let's Connect ↗</a>
+  </div>
+</header>
+
+<main>
+<section id="hero" class="hero grid-bg">
+  <div class="container hero-grid">
+    <div>
+      <span class="pill"><i></i> Computer Science • Data Science • 2026</span>
+      <div class="eyebrow">CANDIDATE PORTFOLIO // KRISHNA</div>
+      <h1>BUILDING WITH <span>DATA.</span></h1>
+      <p class="lead">Computer Science student focused on Data, Analytics, Python, SQL and practical technology solutions.</p>
+      <p class="muted hero-copy">I enjoy breaking down problems, working with data and building practical solutions through programming and analytical thinking.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#work">Explore My Work →</a>
+        <button class="btn secondary" data-open-resume>▣ Download Resume</button>
+      </div>
+      <div class="toolkit"><b>CORE TOOLKIT:</b><span>⌘ Python</span><span>▣ SQL / DBMS</span><span>◇ Data Analytics</span><span>Excel</span></div>
+    </div>
+    <div>
+      <div class="demo-label"><span>// INTERFACE DEMO</span><span>DATA TRANSFORMATION ENGINE</span></div>
+      <div id="sandbox" class="sandbox"></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container two-col">
+    <div class="section-head"><span class="eyebrow blue">01 / ABOUT</span><h2>Computer Science.<br>Data Mindset.</h2></div>
+    <div>
+      <p class="large">I build my foundation around <strong>programming, data, databases, and analytical problem solving.</strong></p>
+      <p class="muted">My approach is practical: understand the problem, structure the data, write clear logic, validate the result, and communicate the outcome.</p>
+      <div class="facts">
+        <div><small>DEGREE</small><b>B.Tech CSE</b><span>Data Science Specialization</span></div>
+        <div><small>INSTITUTION</small><b>Amrita Sai Institute</b><span>2022–2026</span></div>
+        <div><small>FOCUS</small><b>Data & Databases</b><span>Statistics • SQL • Analytics</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="capabilities" class="section dark">
+ <div class="container">
+  <div class="section-title"><span class="eyebrow blue">02 / CAPABILITIES</span><h2>Technical Capabilities</h2><p class="muted">A practical toolkit spanning programming, data systems, analytics and developer workflows.</p></div>
+  <div class="cap-grid">
+   <article class="card"><span class="num">01</span><h3>Core Programming</h3><p>Foundational programming discipline focused on algorithms, structured logic, and practical application development.</p><div class="tags"><span>Python</span><span>SQL</span><span>C</span><span>C++</span><span>Java</span><span>OOP</span></div></article>
+   <article class="card"><span class="num">02</span><h3>Data & Database Systems</h3><p>Structuring, querying, and managing datasets with relational database fundamentals and analytical tools.</p><div class="tags"><span>SQL Querying</span><span>PostgreSQL / MySQL</span><span>Normalization</span><span>Index Optimization</span><span>Excel</span></div></article>
+   <article class="card"><span class="num">03</span><h3>Analytical & Applied Engineering</h3><p>Transforming raw records into structured insights through data manipulation, automation, and exploratory analysis.</p><div class="tags"><span>EDA</span><span>Data Cleaning</span><span>Python Automation</span><span>Statistics</span><span>Problem Solving</span></div></article>
+   <article class="card"><span class="num">04</span><h3>Developer Environment & Workflows</h3><p>Essential software development workflows and version control practices.</p><div class="tags"><span>Git & GitHub</span><span>VS Code</span><span>Jupyter</span><span>Command Line</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="container">
+  <div class="section-title"><span class="eyebrow blue">METHODOLOGY</span><h2>How I Approach Engineering & Data Problems</h2><p class="muted">A structured mindset centered on analytical rigor, validation, and reproducible outputs.</p></div>
+  <div class="method-grid">
+   <article class="card"><b class="num">STEP 01</b><div class="icon">◎</div><h3>Requirements & Schema Framing</h3><p>Define what questions the data must answer. Establish relational schemas, data types, and boundary conditions before implementation.</p><footer>Schema Design • Entity Relationships</footer></article>
+   <article class="card"><b class="num">STEP 02</b><div class="icon">⟁</div><h3>Modular Logic Decomposition</h3><p>Break complex workflows into isolated functions: data extraction, sanitization, rule validation, and transformation.</p><footer>Python Modules • Functional Logic</footer></article>
+   <article class="card"><b class="num">STEP 03</b><div class="icon">⌕</div><h3>Profiling & Verification</h3><p>Inspect query execution paths with EXPLAIN, evaluate index usage, test edge cases, and eliminate bottlenecks.</p><footer>SQL Execution Plans • Performance Profiling</footer></article>
+  </div>
+ </div>
+</section>
+
+<section id="work" class="section work">
+ <div class="container">
+  <div class="section-title split"><div><span class="eyebrow blue">03 / SELECTED WORK</span><h2>Practical Projects & Studies</h2></div><p class="mono muted">// FOCUSED ON DATA LOGIC & SYSTEMS.<br>Projects demonstrating automation, DBMS profiling, and interactive interfaces.</p></div>
+  <div id="projects"></div>
+ </div>
+</section>
+
+<section id="journey" class="section">
+ <div class="container">
+  <div class="section-title split"><div><span class="eyebrow blue">04 / ACADEMIC & SKILL PROGRESSION</span><h2>Learning Path (2022–2026)</h2></div><p class="mono muted">// PROGRESSIVE CAPABILITY TIMELINE.<br>From core CS programming to data systems and industry exposure.</p></div>
+  <div class="timeline">
+   <article class="timeline-item"><b>2022</b><small>PHASE 01</small><h3>Commenced B.Tech in CSE</h3><p>Began undergraduate degree in Computer Science and Engineering at Amrita Sai Institute of Science and Technology, establishing mathematical and algorithmic grounding.</p><div class="tags"><span>Computer Science Foundations</span><span>Logic Building</span></div></article>
+   <article class="timeline-item"><b>2022–2023</b><small>PHASE 02</small><h3>Programming Foundations</h3><p>Developed core algorithmic thinking, data structures, and object-oriented programming principles across multiple programming paradigms.</p><div class="tags"><span>Python</span><span>C</span><span>C++</span><span>Java</span></div></article>
+   <article class="timeline-item"><b>2023–2024</b><small>PHASE 03</small><h3>Data & Database Foundations</h3><p>Specialized coursework in DBMS, complex SQL querying, normalization, and quantitative spreadsheet analysis.</p><div class="tags"><span>SQL</span><span>DBMS</span><span>Relational Modeling</span><span>Excel Analytics</span></div></article>
+   <article class="timeline-item highlight"><b>2024</b><small>PHASE 04</small><em>KEY MILESTONE</em><h3>Practical Projects & Skill India Certification</h3><p>Applied skills to practical projects including automated data scripting and earned the Python Programming Certification from Skill India.</p><div class="tags"><span>Python Automation</span><span>Technical Research</span><span>Skill India Python</span></div></article>
+   <article class="timeline-item highlight"><b>2025</b><small>PHASE 05</small><em>KEY MILESTONE</em><h3>Microsoft Experts Live India</h3><p>Participated in Microsoft Experts Live India (Hyderabad), gaining exposure to industry practices in modern enterprise data environments and cloud architectures.</p><div class="tags"><span>Modern IT Infrastructure</span><span>Enterprise Data Trends</span><span>Industry Exposure</span></div></article>
+   <article class="timeline-item"><b>2026</b><small>PHASE 06</small><h3>B.Tech Completion & Industry Readiness</h3><p>Completing B.Tech in Computer Science and Engineering (Data Science Specialization) and transitioning toward entry-level data, analytics, and software engineering opportunities.</p><div class="tags"><span>Data Science Specialization</span><span>Professional Entry</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section dark">
+ <div class="container">
+  <div class="section-title"><span class="eyebrow blue">INDUSTRY ENGAGEMENT</span><h2>Industry Exposure</h2><p class="muted mono">// Non-employment technical seminar participation and enterprise trends exposure.</p></div>
+  <article class="exposure card">
+    <div class="exposure-top"><div><span class="badge">◈ INDUSTRY EXPOSURE</span><h2>Microsoft Experts Live India</h2></div><div class="meta">⌖ Hyderabad, India &nbsp; • &nbsp; 2025</div></div>
+    <div class="exposure-grid"><div><small>PARTICIPANT ROLE</small><h3>Technical Seminar Participant</h3><p>Participated in specialized technical seminar sessions focusing on modern cloud ecosystems, modern IT infrastructure, and emerging enterprise data management practices.</p></div><div><small>KEY TECHNICAL TAKEAWAYS & FOCUS AREAS</small><ul><li>Explored modern IT infrastructure patterns and enterprise database architectures.</li><li>Gained direct exposure to real-world cloud practices and enterprise data workflows.</li><li>Engaged with tech industry specialists discussing analytics and infrastructure scaling.</li></ul></div></div>
+  </article>
+ </div>
+</section>
+
+<section class="section">
+ <div class="container">
+  <div class="section-title"><span class="eyebrow blue">ACADEMIC BACKGROUND</span><h2>Education</h2><p class="muted mono">// Foundational computer science and data science education.</p></div>
+  <div class="edu-grid">
+   <article class="card"><div class="edu-top"><span class="icon">🎓</span><span class="badge">2022–2026</span></div><h3>B.Tech in Computer Science and Engineering</h3><b class="blue-text">Data Science Specialization</b><strong>Amrita Sai Institute of Science and Technology</strong><div class="focus"><small>CORE ACADEMIC FOCUS</small><span>Statistical Analysis and Database Management</span></div><footer>Status <i>In Progress (Final Year)</i></footer></article>
+   <article class="card"><div class="edu-top"><span class="icon">🎓</span><span class="badge">2020–2022</span></div><h3>Higher Secondary Education (Class XII)</h3><b class="blue-text">Mathematics, Physics & Chemistry</b><strong>SR-Sri Gayatri Junior College</strong><div class="focus"><small>CORE ACADEMIC FOCUS</small><span>Higher Secondary Academic Foundations</span></div><footer>Status <i>Completed (2022)</i></footer></article>
+  </div>
+ </div>
+</section>
+
+<section id="contact" class="section contact">
+ <div class="container">
+  <div class="section-title"><span class="eyebrow blue">05 / CONTACT</span><h2>Let's Build Something Useful.</h2><p class="muted">Open to discussions around data, analytics, engineering projects and early-career opportunities.</p></div>
+  <div class="contact-grid">
+   <div>
+    <div class="contact-email card"><small>DIRECT EMAIL</small><a href="mailto:kommagopalakrishna0033@gmail.com">kommagopalakrishna0033@gmail.com</a><button id="copyEmail">Copy Address</button><p>Preferred channel for project inquiries, technical opportunities, or conversation.</p></div>
+    <div class="social-grid"><a class="card social" href="https://linkedin.com/in/gopalakrishna-komma-ab1106267" target="_blank"><b>in</b><span><strong>LinkedIn</strong><small>Connect professionally ↗</small></span></a><a class="card social" href="https://github.com/krishna345021" target="_blank"><b>⌘</b><span><strong>GitHub</strong><small>Repositories & Code ↗</small></span></a></div>
+   </div>
+   <form id="contactForm" class="card form">
+    <div class="form-title">▱ &nbsp; Send a Direct Message</div>
+    <div class="form-row"><label>Your Name<input id="senderName" required placeholder="e.g. Alex Smith"></label><label>Your Email / Organization<input id="senderEmail" type="email" required placeholder="name@company.com"></label></div>
+    <label>Message or Project Inquiry<textarea id="message" rows="5" required placeholder="Tell me briefly what you'd like to discuss..."></textarea></label>
+    <button class="btn primary" type="submit">Open Email Client →</button>
+    <p class="muted tiny">This static portfolio opens your default email client; no backend or Node.js server is required.</p>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container footer-row"><div><b>GOPALAKRISHNA KOMMA</b> <span>/</span> Portfolio Website</div><div>Computer Science • Data Science</div><div><a href="https://linkedin.com/in/krishna-datascience" target="_blank">LinkedIn</a> • <a href="mailto:kommagopalakrishna0033@gmail.com">Email</a> • <button id="topBtn">↑</button></div></div><div class="container footer-bottom"><span>© 2026 Krishna</span><span>Crafted with HTML, CSS & JavaScript — no Node.js</span></div></footer>
+
+<div id="resumeModal" class="modal" aria-hidden="true">
+ <div class="modal-box"><button id="closeModal" class="close">×</button><div class="modal-head"><span class="modal-icon">▣</span><div><h2>Resume & Credentials</h2><small>Krishna • Computer Science & Data Science</small></div></div><div class="resume-summary"><div>Specialization:<b>B.Tech CSE (Data Science)</b></div><div>Institution:<b>Amrita Sai Institute of Sci. & Tech.</b></div><div>Period:<b>2022 – 2026</b></div><div>Key Focus:<b>Data, Python, SQL, DBMS</b></div></div><a class="btn primary full" href="resume.pdf" download="Krishna_Resume.pdf">↓ Download Official Resume (PDF)</a><p class="note">Place your final PDF as <code>resume.pdf</code> in this folder. The button above is already configured.</p></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
